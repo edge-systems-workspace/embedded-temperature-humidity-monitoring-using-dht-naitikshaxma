@@ -55,6 +55,14 @@ void loop() {
         Serial.println("Failed to read from DHT sensor!");
         return;
     }
+    // TODO 10:
+    // Print formatted temperature and humidity values
+    Serial.print("Humidity: ");
+    Serial.print(humidity);
+    Serial.print(" %  |  Temperature: ");
+    Serial.print(temperature);
+    Serial.println(" °C");
+
 
 
 }
